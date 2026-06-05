@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+    <link rel="stylesheet" href="assignment.css">
+</head>
+<body>
+    <div class="formcontainer">
+        <h3>Register</h3>
+        <form id="regform">
+            <input type="text" placeholder="FULL NAME"required>
+            <input type="password" placeholder="PASSWORD"required>
+            <input type="email" placeholder="EMAIL"required>
+            <button type="button" onclick="submitform()">Submit</button>
+        </form>
+    </div>
+    <script>
+        function submitform(){
+          alert(
+            'form submitted'
+          )  
+        }
+    </script>
+</body>
+</html>
